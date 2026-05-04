@@ -2,9 +2,9 @@
 <html lang="th">
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="favicon.png" type="image/png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>กิ๊วววววววววว</title>
+    <link rel="icon" href="favicon.png" type="image/png">
     <style>
         :root {
             --primary-color: #4a90e2;
@@ -105,17 +105,17 @@
 <body>
 
 <div class="container">
-    <h2>📝แปลงตัวอักษรจ้า</h2>
+    <h2>📝แปลงตัวอังษรจ้า</h2>
     
     <textarea id="inputText" placeholder="วางข้อความภาษาอังกฤษไว้หม่องนี้จ้า.... "></textarea>
     
     <div id="statusMsg"></div>
 
     <div class="button-grid">
-        <button class="btn-upper" onclick="transformText('upper')">⬆️ แปลงเป็นตัวพิมพ์ใหญ่</button>
         <button class="btn-lower" onclick="transformText('lower')">⬇️ แปลงเป็นตัวพิมพ์เล็ก</button>
-        <button class="btn-copy" onclick="copyText()">📋 คัดลอกข้อความ</button>
+        <button class="btn-upper" onclick="transformText('upper')">⬆️ แปลงเป็นตัวพิมพ์ใหญ่</button>
         <button class="btn-clear" onclick="clearAll()">🧹 ล้างหน้าจอ</button>
+        <button class="btn-copy" onclick="copyText()">📋 คัดลอกข้อความ</button>
     </div>
 
     <div class="footer-note">* ทุกการแปลงจะลบบรรทัดที่ว่างเปล่าออกให้อัตโนมัติ</div>
@@ -184,5 +184,3 @@
 
 </body>
 </html>
-
-
